@@ -1,0 +1,120 @@
+body {
+  background-image: url("img/background.jpg");
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#resultado {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: url("img/background.jpg");
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+input:hover {
+  color: rgb(11, 186, 192);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-image: url("img/background.jpg");
+  color: #000f03;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+button:hover {
+  color: rgb(11, 186, 192);
+}
+
+#resultado {
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: transparent;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icons i {
+  font-size: 30px;
+  color: #db1212;
+  transition: color 0.3s ease;
+}
+
+.icons i:hover {
+  color: #000;
+}
+
+.copy {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copy:hover {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores */
+}
